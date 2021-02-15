@@ -1,0 +1,220 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B92A90EB-2FA9-4C83-84B2-70BC6890B8DB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FSE_HTML_CSS_React_Node</RootNamespace>
+    <AssemblyName>FSE_HTML_CSS_React_Node</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44387</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1-first-website\index.html" />
+    <Content Include="2-daCssBasics\index.html" />
+    <Content Include="2-daCssBasics\lion.png" />
+    <Content Include="2-daCssBasics\main.css" />
+    <Content Include="2-daCssBasics\zebra.jpg" />
+    <Content Include="3-MyCssWebsite\devIcon.png" />
+    <Content Include="3-MyCssWebsite\index.html" />
+    <Content Include="3-MyCssWebsite\iOS_Slope.png" />
+    <Content Include="3-MyCssWebsite\styles.css" />
+    <Content Include="4-Javascript_all_code\index.html" />
+    <Content Include="4-Javascript_all_code\javascript\all-code.js" />
+    <Content Include="4-Javascript_all_code\javascript\conditionals-operators.js" />
+    <Content Include="4-Javascript_all_code\javascript\functions-arrays.js" />
+    <Content Include="4-Javascript_all_code\javascript\numbers.js" />
+    <Content Include="4-Javascript_all_code\javascript\objects-loops.js" />
+    <Content Include="4-Javascript_all_code\javascript\variables-strings.js" />
+    <Content Include="4-Javascript_all_code\__MACOSX\._index.html" />
+    <Content Include="4-Javascript_all_code\__MACOSX\javascript\._conditionals-operators.js" />
+    <Content Include="4-Javascript_all_code\__MACOSX\javascript\._functions-arrays.js" />
+    <Content Include="4-Javascript_all_code\__MACOSX\javascript\._numbers.js" />
+    <Content Include="4-Javascript_all_code\__MACOSX\javascript\._objects-loops.js" />
+    <Content Include="4-Javascript_all_code\__MACOSX\javascript\._variables-strings.js" />
+    <Content Include="5-percentage-calculator\calc.js" />
+    <Content Include="5-percentage-calculator\index.html" />
+    <Content Include="5-percentage-calculator\__MACOSX\._calc.js" />
+    <Content Include="5-percentage-calculator\__MACOSX\._index.html" />
+    <Content Include="6-DevslopesLoginPortal\assets\DevslopesLogo.png" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.css" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.min.css" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.css" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.min.css" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap.css" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap.min.css" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\js\bootstrap.js" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\js\bootstrap.min.js" />
+    <Content Include="6-DevslopesLoginPortal\index.html" />
+    <Content Include="6-DevslopesLoginPortal\main.css" />
+    <Content Include="7-skateOrDie\assets\360flip.jpg" />
+    <Content Include="7-skateOrDie\assets\board.jpg" />
+    <Content Include="7-skateOrDie\assets\bscrook.jpg" />
+    <Content Include="7-skateOrDie\assets\KFS.png" />
+    <Content Include="7-skateOrDie\assets\KFSsm.png" />
+    <Content Include="7-skateOrDie\assets\KFS_LIGHT.png" />
+    <Content Include="7-skateOrDie\assets\KFS_modal.png" />
+    <Content Include="7-skateOrDie\assets\kickflip.jpg" />
+    <Content Include="7-skateOrDie\assets\longboard.jpg" />
+    <Content Include="7-skateOrDie\assets\prodigy.png" />
+    <Content Include="7-skateOrDie\assets\tipsolahraga.jpg" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.css" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.min.css" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.css" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.min.css" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap.css" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap.min.css" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\js\bootstrap.js" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\js\bootstrap.min.js" />
+    <Content Include="7-skateOrDie\index.html" />
+    <Content Include="7-skateOrDie\main.css" />
+    <Content Include="8-flexbox-basics-final\.idea\modules.xml" />
+    <Content Include="8-flexbox-basics-final\.idea\workspace.xml" />
+    <Content Include="8-flexbox-basics-final\index.html" />
+    <Content Include="9-flexbox-landingpage-final\.idea\misc.xml" />
+    <Content Include="9-flexbox-landingpage-final\.idea\modules.xml" />
+    <Content Include="9-flexbox-landingpage-final\.idea\workspace.xml" />
+    <Content Include="9-flexbox-landingpage-final\assets\assistant_icon.svg" />
+    <Content Include="9-flexbox-landingpage-final\assets\graph_lines.svg" />
+    <Content Include="9-flexbox-landingpage-final\assets\pie_chart.svg" />
+    <Content Include="9-flexbox-landingpage-final\assets\profile_image.png" />
+    <Content Include="9-flexbox-landingpage-final\css\styles.css" />
+    <Content Include="9-flexbox-landingpage-final\index.html" />
+    <Content Include="9-flexbox-landingpage-final\main.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1-first-website\.DS_Store" />
+    <Content Include="2-daCssBasics\.DS_Store" />
+    <Content Include="4-Javascript_all_code\javascript\.DS_Store" />
+    <Content Include="4-Javascript_all_code\__MACOSX\javascript\._.DS_Store" />
+    <Content Include="6-DevslopesLoginPortal\.DS_Store" />
+    <Content Include="6-DevslopesLoginPortal\assets\.DS_Store" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\.DS_Store" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.css.map" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.css.map" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap.css.map" />
+    <Content Include="6-DevslopesLoginPortal\bootstrap-4.0.0-alpha.6-dist\css\bootstrap.min.css.map" />
+    <Content Include="7-skateOrDie\.DS_Store" />
+    <Content Include="7-skateOrDie\assets\.DS_Store" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.css.map" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.css.map" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap.css.map" />
+    <Content Include="7-skateOrDie\bootstrap-4.0.0-alpha.6-dist\css\bootstrap.min.css.map" />
+    <Content Include="8-flexbox-basics-final\.idea\flexbox-basics.iml" />
+    <Content Include="9-flexbox-landingpage-final\.idea\flexbox-landingpage.iml" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="8-flexbox-basics-final\.idea\inspectionProfiles\" />
+    <Folder Include="9-flexbox-landingpage-final\.idea\inspectionProfiles\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59838</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44387/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
